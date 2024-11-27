@@ -3,13 +3,18 @@
 	"version": "1.0.0",
 	"main": "index.js",
 	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1"
+		"test": "mocha",
+		"build": "tsc"
 	},
 	"keywords": [],
 	"author": "Tom A. Vibeto <tom@onlyhuman.dk> (https://onlyhuman.dk/)",
 	"license": "ISC",
 	"description": "",
 	"devDependencies": {
+		"@types/chai": "^5.0.1",
+		"@types/mocha": "^10.0.10",
+		"chai": "^5.1.2",
+		"mocha": "^10.8.2",
 		"typescript": "^5.7.2"
 	}
 }
