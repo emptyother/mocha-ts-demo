@@ -3,7 +3,7 @@
 	"version": "1.0.0",
 	"main": "index.js",
 	"scripts": {
-		"test": "mocha",
+		"test": "mocha --reporter mocha-teamcity-reporter",
 		"build": "tsc"
 	},
 	"keywords": [],
@@ -15,6 +15,7 @@
 		"@types/mocha": "^10.0.10",
 		"chai": "^5.1.2",
 		"mocha": "^10.8.2",
+		"mocha-teamcity-reporter": "^4.2.0",
 		"tsx": "^4.19.2",
 		"typescript": "^5.7.2"
 	}
