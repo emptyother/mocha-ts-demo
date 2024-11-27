@@ -143,6 +143,5 @@ dist
 
 # End of https://www.toptal.com/developers/gitignore/api/Node
 
-*-lock.*
 src/*.js
 tests/*.js
